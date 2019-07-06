@@ -11,7 +11,7 @@ function IntegrationsDropdown({ icons, integrationTypes }) {
 
   return (
     <div id="integrationsDropdown" className="row">
-      <div className="col">
+      <div className="col align-self-center">
         <div className="btn-group">
           <button
             type="button"
@@ -22,7 +22,7 @@ function IntegrationsDropdown({ icons, integrationTypes }) {
           >
             Add Integration
           </button>
-          <div className="dropdown-menu">
+          <div className="dropdown-menu dropdown-menu-right">
             {integrationTypes.map(integrationType => (
               <a
                 key={integrationType.id}
