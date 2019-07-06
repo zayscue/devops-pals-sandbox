@@ -1,0 +1,16 @@
+GET https://localhost:5001/api/integrations HTTP/1.1
+
+POST https://localhost:5001/api/integrations HTTP/1.1
+content-type: application/json
+
+{
+    "nickName": "sample nick name",
+    "props": {
+        "apiKey" : "sample api key",
+        "baseUri": "sample uri"
+    },
+    "type": {
+        "id": "5d1cf8a6d1f6e4da30d79371",
+        "name": "Bitbucket Server"
+    }
+}
