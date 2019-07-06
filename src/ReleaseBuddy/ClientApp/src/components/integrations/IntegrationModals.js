@@ -27,7 +27,7 @@ function IntegrationModals({ integrationTypes, integration, addIntegration }) {
             title="Not Supported"
             hideSave="true"
           >
-            <p>Integration Type Not Support!</p>
+            <p>Integration Type Not Supported!</p>
           </Modal>
         );
     }

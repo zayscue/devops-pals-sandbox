@@ -1,0 +1,28 @@
+[
+  {
+    "_id": {
+      "$oid": "5d2037f0340d40bd0a26822a"
+    },
+    "integrationType": {
+      "_id": {
+        "$oid": "5d1cf8a6d1f6e4da30d79371"
+      },
+      "name": "Bitbucket Server"
+    },
+    "name": "Get Branches",
+    "description": "Retrieve the branches matching the supplied filterText param.",
+    "metaData": {
+      "route": "rest/api/1.0/projects/{projectKey}/repos/{repositorySlug}/branches",
+      "inputs": [
+        {
+          "name": "projectKey",
+          "dataType": "string"
+        },
+        {
+          "name": "repositorySlug",
+          "dataType": "string"
+        }
+      ]
+    }
+  }
+]

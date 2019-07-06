@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "5d1cf8a6d1f6e4da30d79371",
+    "name": "Bitbucket Server"
+  },
+  {
+    "_id": "5d1cf911d1f6e4da30d79372",
+    "name": "Slack"
+  },
+  {
+    "_id": "5d1cf961d1f6e4da30d79373",
+    "name": "Octopus Deploy"
+  },
+  {
+    "_id": "5d1cf98fd1f6e4da30d79374",
+    "name": "E-Mail"
+  },
+  {
+    "_id": "5d1cf9a8d1f6e4da30d79375",
+    "name": "Calendar"
+  },
+  {
+    "_id": "5d1cfa68d1f6e4da30d79376",
+    "name": "Jira"
+  }
+]
